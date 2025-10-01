@@ -1,2 +1,4 @@
 fastapi
-uvicorn
+mangum
+python-dotenv
+requests
