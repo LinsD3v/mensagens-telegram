@@ -12,8 +12,8 @@ def read_root():
 
 @app.post("/messages/")
 def create_message(data: Data):
-    bot_token = os.getenv("BOT-TOKEN")
-    chat_id = os.getenv("CHAT-ID")
+    bot_token = os.getenv("BOT_TOKEN")
+    chat_id = os.getenv("CHAT<ID")
 
     response = requests.post(
         f"https://api.telegram.org/bot{bot_token}/sendMessage",
